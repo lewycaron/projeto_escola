@@ -11,7 +11,7 @@ Front End de uma Aplicação Web Escolar.
 - [@lewy.caron](https://www.github.com/LewyCaron)
 - [@brendon.alcantara](https://www.github.com/BrendonAlc)
 - [@vagner.zaleski](https://www.github.com/VagnerZaleski)
-- 
+
 ## Stack utilizada
 
 **Front-end:** CSS3, HTML5
