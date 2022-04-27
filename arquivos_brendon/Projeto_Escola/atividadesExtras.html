@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividadesExtras</title>
+    <!--verificar fonte
+    linkar com css-->
+
+</head>
+<body>
+<div class="container">
+    <header> <!--cabecalho-->
+        <img> <!--Adicionar imagem do cabecalho caso tenha-->
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html" target="_self">Home</a>
+                    </li>
+                    <li>
+                        <a href="matricula.html" target="_self">Matrícula</a>
+                    </li>
+                    <li>
+                        <a href="areaDoAluno.html" target="_self">Área do Aluno</a>
+                    </li>
+                    <li>
+                        <a href="areaDePais.html" target="_self">Área de pais</a>
+                    </li>
+                    <li>
+                        <a href="areaDoProfessor.html" target="_self">Área do Professor</a>
+                    </li>
+                    <li>
+                        <a href="administrativo.html" target="_self">Administrativo</a>
+                    </li>
+                    <li>
+                        <a href="financeiro.html" target="_self">Financeiro</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" target="_self">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <section><a name="atividades"></a>
+        <article>
+            <img src=""> <!--local da imagem da aula extra-->
+            <h2>Natação</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae placeat, ducimus libero incidunt aliquam!</p>
+        </article>
+
+        <article>
+            <img src=""> <!--local da imagem da aula extra-->
+            <h2>Judo></a></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quia fuga veritatis magni aspernatur hic?</p>
+        </article>
+
+        <article>
+            <img src=""> <!--local da imagem da aula extra-->
+            <h2>Informática</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, magni.</p>
+        </article>
+
+        <article>
+            <img src=""> <!--local da imagem da aula extra-->
+            <h2>Idiomas</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quisquam reprehenderit aspernatur culpa?</p>
+        </article>
+
+        <article>
+            <img src=""> <!--local da imagem da aula extra-->
+            <h2>Música</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolorum laborum excepturi?</p>
+        </article>
+
+        <article>
+            <img src=""> <!--local da imagem da aula extra-->
+            <h2>Ballet</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolorum laborum excepturi?</p>
+        </article>
+
+    </section>
+
+    <section class="atividadesExtras">
+        <h2>Matrícule-se já!</h2>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Informações da matrícula:</legend>
+                    <p>
+                        <label for="nomealuno2">Nome do Aluno:</label>
+                        <input type="text" id="nomealuno2" name="nomealuno2" required placeholder="Nome completo">
+                    </p>
+                    <p>
+                        <label for="matricula">Matrícula:</label>
+                        <input type="number" id="matricula" name="matricula" required placeholder="Digite aqui...">
+                    </p>
+                    <p>
+                        <label for="email2">E-mail</label>
+                        <input type="email" id="email2" name="email2" required placeholder="Digite aqui...">
+                    </p>
+                    <p>
+                        <label for="phone4">Telefone:</label>          
+                        <input type="tel" id="phone4" name="phone4" size="1" maxlength="2" required>-<input type="tel" id="phone5" size="5" maxlength="5" required>-<input type="tel" name="phone6" size="4" maxlength="4" required>
+                    </p>
+ 
+                        <h4>Selecione a atividade que deseja realizar:</h4>
+                <div class="complementares">
+                    <div class="atividade">
+                        <p>Atividades Extracurriculares:<br />
+                            <input type="checkbox" name="inf">Informática<br>
+                            <input type="checkbox" name="mus" >Música<br>
+                            <input type="checkbox" name="bal" >Ballet<br>
+                            <input type="checkbox" name="idi" >Idiomas<br>
+                            <input type="checkbox" name="jud" >Judô<br>
+                            <input type="checkbox" name="nat" >Natação<br>
+                        </p>
+                    </div>
+                </div>
+                    <div class="turno">
+                        <p> Turno:<br />
+                            <input type="radio" name="turno" value="manhã">Manhã<br>
+                            <input type="radio" name="turno" value="tarde">Tarde<br>
+                        </p>
+                        <p>
+                            <label for="appt">Escolha o horário para atividade extracurricular:</label>
+                            <input type="time" id="appt" name="appt" min="09:00" max="17:00" required>
+                        </p>
+                    </div>	
+                    <button type="submit" name="matricular" onclick="funcao1()">Finalizar matrícula</button>			
+                </div>    
+            </fieldset>
+        </form>
+    </section>
+
+    
+    <footer>Grupo Educacional Escola Café e Software | Todos os direitos reservados. Política de Privacidade</footer>
+</div>
+</body>
+</html>

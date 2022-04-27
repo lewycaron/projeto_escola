@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financeiro</title>
+    <!--verificar fonte
+    linkar com css-->
+    
+
+</head>
+<body>
+<div class="container">
+    <header> <!--cabecalho-->
+        <img> <!--Adicionar imagem do cabecalho caso tenha-->
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="matricula.html">Matrícula</a>
+                    </li>
+                    <li>
+                        <a href="areaDoAluno.html">Área do Aluno</a>
+                    </li>
+                    <li>
+                        <a href="areaDePais.html">Área de pais</a>
+                    </li>
+                    <li>
+                        <a href="areaDoProfessor.html">Área do Professor</a>
+                    </li>
+                    <li>
+                        <a href="administrativo.html">Administrativo</a>
+                    </li>
+                    <li>
+                        <a href="financeiro.html">Financeiro</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" target="_self">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <section class="financeiro">
+        <h2>Forma de pagamento</h2>
+        <p>
+          <label for="card">
+            <span>Tipo:</span>
+          </label>
+            <input id="pagamento" type="radio" value="boleto">Boleto</input>
+        </p>
+        <p>
+          <label for="email">
+            <span>Informe o e-mail:</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="email" id="email" required>
+        </p>
+        <p>
+          <label for="date">
+            <span>Data de vencimento:</span>
+            <strong><abbr title="required">*</abbr></strong>
+          </label>
+          <input type="date" id="date" name="vencimento" required>
+        </p>
+
+        <button type="submit" id="finalizar">Gerar boleto</button>
+    </section>
+
+
+    <footer>Grupo Educacional Escola Café e Software | Todos os direitos reservados. Política de Privacidade</footer>
+</div>
+</body>
+</html>

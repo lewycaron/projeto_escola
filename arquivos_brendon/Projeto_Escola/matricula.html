@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Escola</title>
+    <!--verificar fonte
+    linkar com css-->
+    
+
+</head>
+<body>
+<div class="container">
+    <header> <!--cabecalho-->
+        <img> <!--Adicionar imagem do cabecalho caso tenha-->
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="matricula.html">Matrícula</a>
+                    </li>
+                    <li>
+                        <a href="areaDoAluno.html">Área do Aluno</a>
+                    </li>
+                    <li>
+                        <a href="areaDePais.html">Área de pais</a>
+                    </li>
+                    <li>
+                        <a href="areaDoProfessor.html">Área do Professor</a>
+                    </li>
+                    <li>
+                        <a href="administrativo.html">Administrativo</a>
+                    </li>
+                    <li>
+                        <a href="financeiro.html">Financeiro</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" target="_self">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <h1>Matrículas</h1>
+
+    <h2>O Café e Software quer ter a satisfação de participar da formação do seu filho. Por isso, informa que as Matrículas já estão disponíveis. Escolha uma de nossas Unidades, agende uma visita e venha compartilhar conosco um ano de muitas conquistas!</h2>
+
+    <h3>O atendimento poderá ocorrer de forma presencial ou virtual, conforme a sua disponibilidade. Preencha os dados para melhor atende-lo(a).</h3>
+    
+
+
+
+    <section class="virtual">
+        <h2>Matrícule-se já!</h2>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Informações da matrícula:</legend>
+                    <p>
+                        <label for="nomealuno">Nome do Aluno:</label>
+                        <input type="text" id="nomealuno" name="nomealuno" required placeholder="Nome completo">
+                    </p>
+                    <p>
+                        <label for="rg">RG:</label>
+                        <input type="number" id="rg" name="rg" required placeholder="Digite aqui...">
+                    </p>
+                    <p>
+                        <label for="CPF">CPF:</label>
+                        <input type="number" id="cpf" name="cpf" required placeholder="Digite aqui...">
+                    </p>
+                    <p>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required placeholder="Digite aqui...">
+                    </p>
+                    <p>
+                        <label for="phone">Telefone:</label>          
+                        <input type="tel" id="phone" name="phone" size="1" maxlength="2" required>-<input type="tel" id="phone2" size="5" maxlength="5" required>-<input type="tel" name="phone3" size="4" maxlength="4" required>
+                    </p>
+                    
+                    <h4>Informações complementares:</h4>
+			<div class="principal">
+				<div class="series">
+				<p> Série: <br />
+					<select name="serie">
+						  <option value="pre">pré-escolar</option>
+						  <option value="ser1">1a série</option>
+						  <option value="ser2">2a série</option>
+						  <option value="ser3">3a série</option>
+						  <option value="ser4">4a série</option>
+						  <option value="ser5">5a série</option>
+						  <option value="ser6">6a série</option>
+						  <option value="ser7">7a série</option>
+						  <option value="ser8">8a série</option>
+						  <option value="ser9">1a série</option>
+						  <option value="ser10">2a série</option>
+						  <option value="ser11">3a série</option>
+					</select>
+				</p>
+				</div>
+				<div class="turno">
+				<p> Turno:<br />
+					<input type="radio" name="turno" value="manhã">Manhã<br>
+					<input type="radio" name="turno" value="tarde">Tarde<br>
+				</p>
+				</div>
+				<div class="atividade">
+					<p>Atividades Extracurriculares:<br />
+						<input type="checkbox" name="inf">Informática<br>
+						<input type="checkbox" name="mus" >Música<br>
+						<input type="checkbox" name="bal" >Ballet<br>
+						<input type="checkbox" name="idi" >Idiomas<br>
+						<input type="checkbox" name="jud" >Judô<br>
+						<input type="checkbox" name="nat" >Natação<br>
+					</p>
+				</div>
+			</div>
+                <div class="upload">
+                    <ul>
+                        <li>
+                            <label for="historico">Histórico Escolar</label>
+                            <input type="file" required/>
+                        </li>
+                        <li>
+                            <label for="certidao">Certidão de Nascimento</label>
+                            <input type="file" required/>
+                        </li>
+                        <li>
+                            <label for="RG">RG e CPF</label>
+                            <input type="file" required/>
+                        </li>
+                        <li>
+                            <label for="comprovante">Comprovante de residência</label>
+                            <input type="file" required/>
+                        </li>
+                    </ul>
+                </div>
+                    <p>
+                        <label for="mensagem">Mensagem</label>
+                        <textarea type="text" name="mensagem" id="mensagem" placeholder="Digite sua mensagem aqui..."></textarea> <!--Ajustar o tamanho da area no CSS-->
+                    </p>
+
+                    <h6>*Para documento de RG e CPF deverão ser anexados frente e verso.</h6>
+                    <button type="submit" name="matricula" value="matricula" onclick="funcao1()">Finalizar Matrícula</button>
+            </fieldset>          
+        </form>
+    </section>
+
+
+        <!--Sessao para agendamento de visita a escola-->
+        <section>
+            <h2>Agende uma visita</h2>
+            <form class="visita"></form>
+            <fieldset>
+              <legend>Responsável de Contato</legend> <!--selecionar qual responsável estará na visita-->
+              <ul>
+                  <li>
+                    <label for="title_1">
+                      <input type="radio" id="title_1" name="title">Pai
+                  </li>
+                  <li>
+                    <label for="title_2">
+                      <input type="radio" id="title_2" name="title">Mãe             
+                    </label>
+                  </li>
+                  <li>
+                    <label for="title_3">
+                      <input type="radio" id="title_3" name="title">Outros       
+                      <input type="text" id="title_3" name="title"> <!--Para informar parentesco-->
+                    </label>
+                  </li>
+              </ul>
+            </fieldset>
+            <p>
+                <label for="name">Name:</label>           
+                <input type="text" id="name" name="username" required placeholder="Campo obrigatório">
+            </p>
+            <p>
+                <label for="mail">E-mail:</label>           
+                <input type="email" id="mail" name="usermail" required placeholder="Campo obrigatório">
+            </p>
+            <p>
+                <label for="phone">Telefone:</label>          
+                <input type="tel" id="phone" name="phone" size="1" maxlength="2" required> - <input type="tel" id="phone2" size="5" maxlength="5" required>-<input type="tel" name="phone3" size="4" maxlength="4" required>
+            </p>
+            <p>
+                <label for="date">
+                  <span>Data da visita:</span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="date" id="date" name="agendamento" required>
+            </p>
+    
+            <p>
+                <label for="comentario" >Mensagem</label>
+                <input type="text" name="comentario" id="comentario" size="200" placeholder="Deixe aqui sua mensagem..."/>
+            </p>
+    
+            <button type="submit" name="agendar" onclick="funcao2()">Agendar</button>
+            </form>
+    
+        </section>
+
+
+
+
+
+    <footer>Grupo Educacional Escola Café e Software | Todos os direitos reservados. Política de Privacidade</footer>
+</div>
+
+</body>
+</html>
