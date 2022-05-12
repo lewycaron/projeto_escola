@@ -1,0 +1,58 @@
+Áreas:
+  Home:
+    Matricule seu filho:
+    Area do Aluno:
+      Perfil
+        Informacoes Pessoais do Aluno
+          RGM
+          Email
+          Nome
+          Notas/Faltas
+      Disciplinas
+        Notas/Faltas
+        Materiais Didáticos (Cadastrados pelo Professor)
+        Calendario
+      Extracurriculares
+        Descricao
+    Area do Professor:
+      Cadastro de Notas
+        Lista de Alunos
+      Cadastro de Presença
+        Lista de Alunos
+      Envio de Atividade
+        Anexar arquivo
+        Descricao da Atividade
+      Agendar Tarefas
+        Descricao
+      Mensagens
+    Área dos Pais:
+      Cadastro de Aluno no Sistema (Matricule-se)
+      Selecionar Filho
+        Informacoes Pessoais do Aluno
+        Notas
+        Cadastro de Extracurriculares
+        Finanaceiro
+        Rematricula
+        Mensagens
+    Área da Secretaria: 
+      Cadastro de Aluno no Sistema
+          Email do Aluno
+          Nome do Aluno
+          Email do Pai
+          Nome do Pai
+      Cadastro de Curso no Sistema
+      Cadastro de Professor no Sistema
+      Cadastro de Extracurriculares no Sistema
+      Mensagens
+Premissa: Todo Professor tem apenas uma disciplina.
+
+Atividades:
+  11/05:
+    Matheus Murray: Modelar o Banco da Área do Aluno
+    Brendon Alcântara: Adicionar Dados Filhos no Arquivo de Mapeamento
+
+
+
+
+
+
