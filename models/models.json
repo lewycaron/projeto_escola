@@ -1,0 +1,60 @@
+{
+    "Login" : {
+        "id" : "1",
+        "email" : "matheusmurraydev@gmail.com",
+        "senha" : "Senh4Inquebr4vel@"
+    },
+    "Discipline" : {
+        "id" : "1",
+        "nome" : "INTRODUCTION TO DESIGN PATTERNS"
+    },
+    "Abscences" : {
+        "id" : "1",
+        "studentId" : "1",
+        "date" : "17/05/2022"
+    }, 
+    "Grade" : {
+        "id" : "1",
+        "studentId" : "1",
+        "disciplineId" : "1",
+        "grade" : "9.3"
+    },
+    "Event" : {
+        "id": "1",
+        "studentId": "1",
+        "disciplineId": "1",
+        "date": "22/10/2022 09:20",
+        "description": ""
+    },
+    "TeacherDisciplines" : {
+        "id" : "1",
+        "teacherId" : "1",
+        "disciplineId" : "1"
+    },
+    "StudentDisciplines" : {
+        "id" : "1",
+        "studentId" : "1",
+        "disciplineId" : "1"
+    },
+    "Teachers" : {
+        "id",
+        "personId",
+        "loginId"
+    },
+    "Students" : {
+        "id",
+        "personId",
+        "loginId"
+    },
+    "Parents" : {
+        "id",
+        "personId",
+        "loginId"
+    },
+    "Persons" : {
+        "id" : "1",
+        "name" : "MATHEUS CASSINS MURRAY",
+        "document" : "07862803958",
+        "birthDay" : "10/01/2000"
+    }
+}
