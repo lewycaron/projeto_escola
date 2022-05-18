@@ -1,51 +1,148 @@
 {
-    "Login" : {
-        "id" : "1",
-        "email" : "matheusmurraydev@gmail.com",
-        "senha" : "Senh4Inquebr4vel@"
+    "Login" : 
+    {
+        "1" : {
+            "id" : "1",
+            "email" : "matheusmurraydev@gmail.com",
+            "senha" : "Senh4Inquebr4vel@"
+        },
+        "2" : {
+            "id" : "1",
+            "email" : "lewycaron@gmail.com",
+            "senha" : "husdh71y327&*@#@H&"
+        },
+        "3" : {
+            "id" : "3",
+            "email" : "brendon@gmail.com",
+            "senha" : "dsa@dau78%H29#8H8321"
+        },
+        "4" : {
+            "id" : "3",
+            "email" : "vagnerza@gmail.com",
+            "senha" : "dsa@dau78%H29#8H8321"
+        }
     },
     "Discipline" : {
-        "id" : "1",
-        "nome" : "INTRODUCTION TO DESIGN PATTERNS"
+        "1" : {
+            "id" : "1",
+            "nome" : "INTRODUCTION TO DESIGN PATTERNS"
+        },
+        "2" : {
+            "id" : "2",
+            "nome" : "REST APIs FOR CHILDREN"
+        },
+        "3" : {
+            "id" : "3",
+            "nome" : "TEENS AND CLOUD COMPUTING" 
+        },
+        "4" : {
+            "id" : "4",
+            "nome" : "LEARN PROGRAMMING THE RIGTH WAY" 
+        }
     },
     "Abscences" : {
-        "id" : "1",
-        "studentId" : "1",
-        "date" : "17/05/2022"
-    }, 
-    "Grade" : {
-        "id" : "1",
-        "studentId" : "1",
-        "disciplineId" : "1",
-        "grade" : "9.3"
+        "1" : {
+            "id" : "1",
+            "studentId" : "1",
+            "disciplineId" : "2",
+            "date" : "04/03/2022"
+        }, 
+        "2" : {
+            "id" : "2",
+            "studentId" : "1",
+            "date" : "17/04/2022"
+        }, 
+        "3" : {
+            "id" : "3",
+            "studentId" : "1",
+            "date" : "17/05/2022"
+        }, 
+        "4" : {
+            "id" : "2",
+            "studentId" : "2",
+            "date" : "15/06/2022"
+        }, 
+        "5" : {
+            "id" : "2",
+            "studentId" : "3",
+            "date" : "23/07/2022"
+        }
     },
-    "Event" : {
-        "id": "1",
-        "studentId": "1",
-        "disciplineId": "1",
-        "date": "22/10/2022 09:20",
-        "description": ""
+    "Grades" : {
+        "1" : {
+            "id" : "1",
+            "studentId" : "3",
+            "disciplineId" : "2",
+            "grade" : "9.3"
+        }, 
+        "2" : {
+            "id" : "2",
+            "studentId" : "1",
+            "disciplineId" : "1",
+            "grade" : "7.3"
+        }, 
+        "3" : {
+            "id" : "3",
+            "studentId" : "4",
+            "disciplineId" : "1",
+            "grade" : "9.8"
+        }, 
+        "4" : {
+            "id" : "4",
+            "studentId" : "2",
+            "disciplineId" : "1",
+            "grade" : "3.3"
+        }, 
+        "5" : {
+            "id" : "5",
+            "studentId" : "2",
+            "disciplineId" : "1",
+            "grade" : "6.7"
+        },
+    "Events" : {
+        "1" : {
+            "id": "1",
+            "studentId": "1",
+            "disciplineId": "1",
+            "date": "22/10/2022 08:40",
+            "description": ""
+        },
+        "2" : {
+            "id": "1",
+            "studentId": "1",
+            "disciplineId": "1",
+            "date": "20/10/2022 10:20",
+            "description": ""
+        }
     },
     "TeacherDisciplines" : {
-        "id" : "1",
-        "teacherId" : "1",
-        "disciplineId" : "1"
+        "1" :{
+            "id" : "1",
+            "teacherId" : "1",
+            "disciplineId" : "1"
+        }
     },
     "StudentDisciplines" : {
-        "id" : "1",
-        "studentId" : "1",
-        "disciplineId" : "1"
+        "1" : {
+            "id" : "1",
+            "studentId" : "1",
+            "disciplineId" : "1"
+        }
     },
     "Teachers" : {
-        "id",
-        "personId",
-        "loginId"
+        "1" : {
+            "id" : "1",
+            "personId" : "1",
+            "loginId" : "1"
+        }
     },
     "Students" : {
-        "id",
-        "personId",
-        "loginId"
-    },
+        "1" : {
+            "id" : "1",
+            "personId" : "2",
+            "loginId" : "3"
+        }
+    }
     "Parents" : {
         "id",
         "personId",
