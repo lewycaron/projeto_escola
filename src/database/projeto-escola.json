@@ -1,0 +1,158 @@
+{
+    "Login" : 
+    {   "email" : { 
+        "matheusmurraydev@gmail.com" :"1",
+        "lewycaron@gmail.com" : "2",
+        "brendon@gmail.com" : "3",
+        "vagnerza@gmail.com" : "4"
+    },
+        "1" : {
+            "email" : "matheusmurraydev@gmail.com",
+            "senha" : "Senh4Inquebr4vel@"
+        },
+        "2" : {
+            "email" : "lewycaron@gmail.com",
+            "senha" : "husdh71y327&*@#@H&"
+        },
+        "3" : {
+            "email" : "brendon@gmail.com",
+            "senha" : "dsa@dau78%H29#8H8321"
+        },
+        "4" : {
+            "email" : "vagnerza@gmail.com",
+            "senha" : "dsa@dau78%H29#8H8321"
+        }
+    },
+    "Discipline" : {
+        "1" : {
+            "id" : "1",
+            "nome" : "INTRODUCTION TO DESIGN PATTERNS"
+        },
+        "2" : {
+            "id" : "2",
+            "nome" : "REST APIs FOR CHILDREN"
+        },
+        "3" : {
+            "id" : "3",
+            "nome" : "TEENS AND CLOUD COMPUTING" 
+        },
+        "4" : {
+            "id" : "4",
+            "nome" : "LEARN PROGRAMMING THE RIGTH WAY" 
+        }
+    },
+    "Abscences" : {
+        "1" : {
+            "id" : "1",
+            "studentId" : "1",
+            "disciplineId" : "2",
+            "date" : "04/03/2022"
+        }, 
+        "2" : {
+            "id" : "2",
+            "studentId" : "1",
+            "date" : "17/04/2022"
+        }, 
+        "3" : {
+            "id" : "3",
+            "studentId" : "1",
+            "date" : "17/05/2022"
+        }, 
+        "4" : {
+            "id" : "2",
+            "studentId" : "2",
+            "date" : "15/06/2022"
+        }, 
+        "5" : {
+            "id" : "2",
+            "studentId" : "3",
+            "date" : "23/07/2022"
+        }
+    },
+    "Grades" : {
+        "1" : {
+            "id" : "1",
+            "studentId" : "3",
+            "disciplineId" : "2",
+            "grade" : "9.3"
+        }, 
+        "2" : {
+            "id" : "2",
+            "studentId" : "1",
+            "disciplineId" : "1",
+            "grade" : "7.3"
+        }, 
+        "3" : {
+            "id" : "3",
+            "studentId" : "4",
+            "disciplineId" : "1",
+            "grade" : "9.8"
+        }, 
+        "4" : {
+            "id" : "4",
+            "studentId" : "2",
+            "disciplineId" : "1",
+            "grade" : "3.3"
+        }, 
+        "5" : {
+            "id" : "5",
+            "studentId" : "2",
+            "disciplineId" : "1",
+            "grade" : "6.7"
+        },
+    "Events" : {
+        "1" : {
+            "id": "1",
+            "studentId": "1",
+            "disciplineId": "1",
+            "date": "22/10/2022 08:40",
+            "description": ""
+        },
+        "2" : {
+            "id": "1",
+            "studentId": "1",
+            "disciplineId": "1",
+            "date": "20/10/2022 10:20",
+            "description": ""
+        }
+    },
+    "TeacherDisciplines" : {
+        "1" :{
+            "id" : "1",
+            "teacherId" : "1",
+            "disciplineId" : "1"
+        }
+    },
+    "StudentDisciplines" : {
+        "1" : {
+            "id" : "1",
+            "studentId" : "1",
+            "disciplineId" : "1"
+        }
+    },
+    "Teachers" : {
+        "1" : {
+            "id" : "1",
+            "personId" : "1",
+            "loginId" : "1"
+        }
+    },
+    "Students" : {
+        "1" : {
+            "id" : "1",
+            "personId" : "2",
+            "loginId" : "3"
+        }
+    }
+    "Parents" : {
+        "id",
+        "personId",
+        "loginId"
+    },
+    "Persons" : {
+        "id" : "1",
+        "name" : "MATHEUS CASSINS MURRAY",
+        "document" : "07862803958",
+        "birthDay" : "10/01/2000"
+    }
+}
