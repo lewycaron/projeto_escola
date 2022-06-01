@@ -9,39 +9,25 @@ export class Login {
     database: ProjetoEscola
     loginModel: LoginModel
     emailExists: boolean
-    response: Response
+    correctPassword: boolean
 
     constructor(email: string, password: string){
         this.email = email
         this.password = password
-        this.database = this.loadDatabase()
-        this.emailExists = this.verifyEmail()
-        this.response = new Response('Login')
+        this.setDatabase()
+        this.setEmailExists()
     }
-    loadDatabase(): any {
-        return new ProjetoEscola
+    setDatabase(): any {
+        this.database = new ProjetoEscola()
     }
-    verifyEmail() {
-        if (this.database.login.find(i => i.email === this.email)) {
-            this.response.data = "Email wasn't found"
-            return true
-        } else {
-            return false
-        }
+    setEmailExists() {
+        this.emailExists = this.database.login.find(i => i.email === this.email) ? true : false
     }
-    fetchByEmail() {
-        if (this.database.login.find(i => i.email === this.email)) {
-            return 
-        }
+    setLoginModel() {
+        const model = this.database.login.find(i => i.email === this.email)
+        this.loginModel = new LoginModel(model!.id, model!.email, model!.password)
     }
-    setLoginModel(model: LoginModel) {
-        this.loginModel = model
-    }
-    verifyPassword() {
-        if (this.loginModel.password == this.password) {
-            return 'Correct Password.'
-        } else {
-            return 'Wrong Password.'
-        }
+    setCorrectPassword() {
+        this.correctPassword = this.loginModel.password == this.password ? true : false
     }
 }

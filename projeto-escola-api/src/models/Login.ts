@@ -4,7 +4,7 @@ export class Login {
     public email: string
     public password: string
 
-    constructor(id:number, name: string, email: string, password: string) {
+    constructor(id:number, email: string, password: string) {
         this.id = id,
         this.email = email,
         this.password = password

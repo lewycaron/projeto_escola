@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { LoginController } from "./controllers/LoginController";
+import { LoginController } from "./controllers/Login";
 const router = Router()
 router.post("/login/student", function(req, res){ new LoginController(req, res).student() })
 router.post("/login/teacher")
