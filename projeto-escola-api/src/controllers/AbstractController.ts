@@ -1,6 +1,7 @@
 import { Request as ExpressRequest, Response as ExpressResponse} from "express"
 import { Login } from "../services/validation/Login"
 import { Response } from "../services/response/Response"
+
 export abstract class Controller {
     response: Response = new Response()
     req: ExpressRequest
@@ -15,5 +16,4 @@ export abstract class Controller {
         this.response.service = service
         this.response.data = data
     }
-
 }

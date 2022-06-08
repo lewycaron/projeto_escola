@@ -2,7 +2,9 @@ import { Controller as AbstractController } from "./AbstractController"
 import { Login as LoginService } from "../services/Login"
 import { Response } from "../services/response/Response"
 import { Request, Response as ExpressResponse } from "express"
+
 export class LoginController extends AbstractController{
+    
     constructor(req: Request, res: ExpressResponse, serviceDescription: string){
         super(req, res)
     }
